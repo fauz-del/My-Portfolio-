@@ -63,6 +63,16 @@ section {
   width: calc(100% - 330px);
 }
 
+.animate {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s ease;
+}
+.animate.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 .heading {
   font-size: 4rem;
   padding-bottom: 1rem;
