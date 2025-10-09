@@ -15,6 +15,14 @@ sidebarToggle.addEventListener("click", () => {
   body.classList.toggle("open");
 });
 
+//=======Animation=======
+const animatedElements = document.querySelectorAll('.animate');
+  animatedElements.forEach((el, index) => {
+    setTimeout(() => {
+      el.classList.add('show');
+    }, index * 200);
+  });
+
 // ===== Animate Progress Bars on Scroll =====
 const progressBars = document.querySelectorAll(".progress");
 
