@@ -375,6 +375,11 @@ body.dark .switch::before {
 
 .about .row-2 .services{
   flex: 1 1 40rem;
+  box-shadow: var(--box-shadow);
+  padding: 15px;
+  transform: translateY(-3%);
+  transition: all 0.3s ease-in-out;
+  border-radius: 0.7rem;
 }
 
 .about .services .progress {
@@ -487,15 +492,19 @@ body.dark .switch::before {
 
 /* ===== Programming Languages ===== */
 .languages {
-  margin-top: 5rem;
   text-align: left;
+  box-shadow: var(--box-shadow);
+  padding: 10px;
+  transform: translateY(-3%);
+  transition: all 0.3s ease-in-out;
+  border-radius: 0.7rem;
 }
 
 .heading2 {
   font-size: 2.5rem;
   color: var(--tx-color);
-  margin-bottom: 2rem;
   text-align: center;
+  padding: 5rem;
 }
 
 .progress {
@@ -839,10 +848,6 @@ header .follow {
 .btn {
   padding: .5rem 1.5rem;
   font-size: 1rem;
-}
-
-.about {
-  outline: 2px solid red;
 }
 
 .about .row-1 .content .box {
